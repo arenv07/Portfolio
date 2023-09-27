@@ -9,6 +9,10 @@
     background-color: #EAE7DC;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -58,7 +62,51 @@
     align-items: center;
 }
 
+/* HERO SECTION */
+#hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
 
+.hero-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text span {
+    color: #e85a4f;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text h3 {
+    font-size: 32px;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/* BIO SECTION */
+#bio {
+    height: 100vh;
+}
 
 
 
